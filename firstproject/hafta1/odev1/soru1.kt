@@ -1,0 +1,17 @@
+import java.util.Scanner
+
+fun main() {
+    val scanner = Scanner(System.`in`)
+
+    println("Kullanıcı Adınızı Giriniz")
+    val kullaniciAdi = scanner.nextLine()
+
+    println("Şifrenizi Giriniz")
+    val sifre = scanner.nextLine()
+
+    if (kullaniciAdi.equals("Elif", ignoreCase = true) && sifre == "1234") {
+        println("Hoş geldiniz!")
+    } else {
+        println("Kullanıcı Adınız veya Şifreniz Hatalıdır")
+    }
+}
